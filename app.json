@@ -1,0 +1,55 @@
+{
+    "name": "truecaller Bot",
+    "description": "I can find phone number informations.",
+    "repository": "https://github.com/ImDenuwan/truecaller-Bot",
+    "logo":"https://telegra.ph/file/2f61421c348c1ec42fde7.jpg",
+    "keywords": [
+        "Bot",
+        "Telegram ",
+        "Pyrogram "
+    ],
+    
+    "env": {
+    "API_ID": {
+      "description": "Enter your API_ID, get it from my.telegram.org/apps",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Enter your API_HASH, get it from my.telegram.org/apps",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Enter your Bot token, get it from @BotFather",
+      "required": true
+    },
+    "CHID": {
+      "description": "Enter your Force Subscribe channel ID",
+      "required": true
+    },
+    "LOGCHID": {
+      "description": "Enter your log chnl id",
+      "required": true
+    },
+    "API": {
+      "description": "Enter your API",
+      "required": true
+    },
+    "SUDO": {
+      "description": "Enter Bot Owners IDS",
+      "required": true
+    }
+        
+  },
+  
+    "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
