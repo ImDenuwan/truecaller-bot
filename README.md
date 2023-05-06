@@ -2,13 +2,13 @@ True-CallerBot-Bot
 👾 Hey I can find information from phone number. Easy to use and simple. 
 
 ## 🚀 Demo Bot
-- [@TheTrueCallerBot](https://t.me/TheTrueCallerBot)
+- [@TheTrueCallerBot](https://t.me/TheTrueCaller_Bot)
 
 <h2>〽️ Deploy Me </h2> 
   
 <details><summary>📌 Deploy to Heroku </summary>
   
-<a href="https://heroku.com/deploy?template=https://github.com/ImDenuwan/truecallerBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"></p></a>
+<a href="https://heroku.com/deploy?template=https://github.com/ImDenuwan/truecaller-Bot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"></p></a>
 </details>
 
 
@@ -25,4 +25,5 @@ your api key is in after "id" : .
  - [Me](https://github.com/ImDenuwan) for Nothing 😅
 
 # Note 
-this is not final bot and updates upcomming. you can create pull requests. bcz currently i don't have time to update.
+this is not final bot and updates upcomming. you can create pull requests. bcz currently i don't have time to update. 
+
