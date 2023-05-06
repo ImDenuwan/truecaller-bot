@@ -1,7 +1,7 @@
 from pymongo import MongoClient
+from configs import cfg
 
-MONGO_URI = "mongodb+srv://Truecaller:Mypower!1@truecaller.ofm05v8.mongodb.net/?retryWrites=true&w=majority"
-client = MongoClient(MONGO_URI)
+client = MongoClient(cfg.MONGO_URI)
 
 users = client['main']['users']
 groups = client['main']['groups']
