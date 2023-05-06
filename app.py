@@ -5,19 +5,18 @@ from pyrogram.errors.exceptions.flood_420 import FloodWait
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from database import add_user, add_group, all_users, all_groups, users, remove_user
 import asyncio, random
+from configs import cfg
 
 bot = Client(
     "trucaller",
-    api_id=9483365,
-    api_hash="e642edb89689fa94fd5c4f4d2c82d052",
-    bot_token="6011581345:AAGZP1Hob0vlGjDo7Ib-qNbkCaZ4QLKAU1s"
+    api_id=cfg.API_ID,
+    api_hash=cfg.API_HASH,
+    bot_token=cfg.BOT_TOKEN
 )
-OWNER_ID = 5728868973
-CHID = -1001910581049
-LOG_ID = -1001968115977
-lms = ['a2i0Q--esHCLEFPVShu0XOMsrpbQgro8YrJHAr9HsDrGtYIFV9svo8lv86lefH59', 'a1i0X--eqgMKUFsk5KDihjRwoSzxRu2eyIeXLxxt-dHUHeVy3bL8AN0jh6lZIu29', 'a1i0i--cZbrxwVEFlUzHgOoZao-BD0og4Z5eajg7BSZA2VQycbi-i5jIC6cR0wZz','a1i01--TU-jKXkAkHSBQTsbxUUlonfO_fm8M9WFnCbImysMQp5oLbHFxF6-4_P2N', 'a1i0b--Z8TCObFs-wY81jynjroY1f-HDM8qMPA_doFu8SuC_1979axtLg6LjQHId']
-
-cc = random.choice(lms)
+OWNER_ID = cfg.SUDO
+CHID = cfg.CHID
+LOG_ID = cfg.LOGCHID
+cc = cfg.API
 
 async def numchk(n: str, x):
     try:
