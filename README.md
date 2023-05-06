@@ -17,7 +17,6 @@ True-CallerBot-Bot
   - `API_HASH` - Your Telegram API HASH.Get it [Here](my.telegram.org)
   - `BOT_TOKEN` - Your Bot Token. Get it from [Here](https://t.me/BotFather)
   - `CHID` - Your Force subscribe channel id Get it from @MissRose_Bot
-  - `FSUB` - Force subscribe channel username without `@`
   - `SUDO` - bot owners Id/ ids ( for broadcast and stats cmds). for multiple use space.
   
   
