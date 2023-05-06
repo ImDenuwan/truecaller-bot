@@ -18,7 +18,8 @@ True-CallerBot-Bot
   - `BOT_TOKEN` - Your Bot Token. Get it from [Here](https://t.me/BotFather)
   - `CHID` - Your Force subscribe channel id Get it from @MissRose_Bot
   - `SUDO` - bot owners Id/ ids ( for broadcast and stats cmds). for multiple use space.
-  
+  - `API` - ypu must download truecaller app and log with phone number. get it from truecallerapp click 3 dots on top of right corner > settings > privacy center > download my data. after downloaded open .json file and find Instalation { "id" : "....
+your api key is in after "id" : .
   
 ### 💫 Credits
  - [Me](https://github.com/ImDenuwan) for Nothing 😅
