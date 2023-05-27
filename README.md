@@ -1,5 +1,5 @@
 #The TrueCaller Bot
-👾 Hey I can find information from phone number. Easy to use and simple. 
+-👾 Hey I can find information from phone number. Easy to use and simple. 
 
 ## 🚀 Demo Bot
 - [@TheTrueCallerBot](https://t.me/TheTrueCaller_Bot)
